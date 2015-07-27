@@ -1,5 +1,5 @@
 # config valid only for current version of Capistrano
-lock '3.3.5'
+lock '3.4.0'
 
 set :application, 'Nority'
 set :repo_url, 'git@github.com:Adrxx/Nority.git'
@@ -30,7 +30,6 @@ set :deploy_to, '/home/rails'
 
 # Default value for default_env is {}
 #set :default_env, { path: "/opt/ruby/bin:$PATH" }
-set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 
 # Default value for keep_releases is 5
